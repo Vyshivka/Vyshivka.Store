@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "title": "Half-Sleeve Pure Cotton Floral Shirt",
+    "category": "men",
+    "style": "Classic Florals",
+    "price": 1499,
+    "image": "assets/images/products/img100.png",
+    "description": "Breathable pure cotton half-sleeve shirt accented with hand-stitched floral pocket embroidery."
+  },
+  {
+    "id": 2,
+    "title": "Full-Sleeve Cotton Botanical Shirt",
+    "category": "men",
+    "style": "Leaves & Vines",
+    "price": 1699,
+    "image": "assets/images/products/img2.png",
+    "description": "Crisp full-sleeve cotton shirt featuring subtle leaf vine embroidery along the collar and cuffs."
+  },
+  {
+    "id": 3,
+    "title": "Daisy Bloom Cotton Half-Sleeve Shirt",
+    "category": "men",
+    "style": "Daisy Bloom",
+    "price": 1399,
+    "image": "assets/images/products/img3.png",
+    "description": "Casual summer cotton shirt detailed with neat, hand-stitched daisy motifs on the chest."
+  },
+  {
+    "id": 4,
+    "title": "Monogram Monogram Cotton Shirt",
+    "category": "men",
+    "style": "Custom Initials",
+    "price": 1599,
+    "image": "assets/images/products/img4.png",
+    "description": "Bespoke full-sleeve pure cotton button-down personalized with fine initial embroidery."
+  },
+  {
+    "id": 5,
+    "title": "Petal Chain Half-Sleeve Cotton Tee",
+    "category": "men",
+    "style": "Petal Chain",
+    "price": 1199,
+    "image": "assets/images/products/img5.png",
+    "description": "Everyday premium cotton t-shirt with a minimalist continuous petal chain across the crew neck."
+  },
+  {
+    "id": 6,
+    "title": "Bud Trail Full-Sleeve Linen Shirt",
+    "category": "men",
+    "style": "Bud Trail",
+    "price": 1799,
+    "image": "assets/images/products/img6.png",
+    "description": "Full-sleeve pure linen shirt styled with delicate stem-and-bud embroidery along the placket."
+  },
+  {
+    "id": 7,
+    "title": "Tiny Vine Half-Sleeve Cotton Shirt",
+    "category": "men",
+    "style": "Tiny Vine",
+    "price": 1449,
+    "image": "assets/images/products/img7.png",
+    "description": "Ultra-clean white cotton half-sleeve shirt featuring a subtle trailing vine on the shoulder."
+  },
+  {
+    "id": 8,
+    "title": "Custom Name Signature Shirt",
+    "category": "men",
+    "style": "Custom Names",
+    "price": 1899,
+    "image": "assets/images/products/img8.png",
+    "description": "Full-sleeve formal cotton shirt personalized with cursive hand-stitched name lettering on the cuff."
+  },
+  {
+    "id": 9,
+    "title": "Floral Garden Flared Skirt",
+    "category": "women",
+    "style": "Classic Florals",
+    "price": 1899,
+    "image": "assets/images/products/img9.png",
+    "description": "Flowing cotton flared skirt intricately embroidered with blooming rose and flower clusters."
+  },
+  {
+    "id": 10,
+    "title": "Botanical Vine Bespoke Dress",
+    "category": "women",
+    "style": "Leaves & Vines",
+    "price": 2299,
+    "image": "assets/images/products/img10.png",
+    "description": "Elegant custom-fit dress detailed with cascading leaf and vine needlework down the waist."
+  },
+  {
+    "id": 11,
+    "title": "Daisy Bloom Cotton Top",
+    "category": "women",
+    "style": "Daisy Bloom",
+    "price": 1399,
+    "image": "assets/images/products/img11.png",
+    "description": "Lightweight half-sleeve cotton top scattered with charming white daisy threadwork."
+  },
+  {
+    "id": 12,
+    "title": "Custom Initial Silk Blouse",
+    "category": "women",
+    "style": "Custom Initials",
+    "price": 1699,
+    "image": "assets/images/products/img12.png",
+    "description": "Hand-tailored blouse featuring personalized monogram embroidery on the sleeve edge."
+  },
+  {
+    "id": 13,
+    "title": "Petal Chain Half-Sleeve Dress",
+    "category": "women",
+    "style": "Petal Chain",
+    "price": 2099,
+    "image": "assets/images/products/img13.png",
+    "description": "Minimalist A-line dress accented with a delicate petal chain along the hem and neckline."
+  },
+  {
+    "id": 14,
+    "title": "Bud Trail Full-Sleeve Cotton Top",
+    "category": "women",
+    "style": "Bud Trail",
+    "price": 1599,
+    "image": "assets/images/products/img14.png",
+    "description": "Full-sleeve breathable cotton top featuring fine floral bud trails along the sleeves."
+  },
+  {
+    "id": 15,
+    "title": "Tiny Vine Flared Skirt",
+    "category": "women",
+    "style": "Tiny Vine",
+    "price": 1799,
+    "image": "assets/images/products/img15.png",
+    "description": "Casual daily wrap skirt styled with clean, subtle green vine embroidery along the border."
+  },
+  {
+    "id": 16,
+    "title": "Custom Name Bespoke Dress",
+    "category": "women",
+    "style": "Custom Names",
+    "price": 2499,
+    "image": "assets/images/products/img16.png",
+    "description": "Signature custom-fitted dress tailored with your name hand-embroidered on the waistline."
+  },
+  {
+    "id": 17,
+    "title": "Embroidered Cotton Cap - Daisy Bloom",
+    "category": "accessories",
+    "style": "Daisy Bloom",
+    "price": 599,
+    "image": "assets/images/products/img17.png",
+    "description": "Adjustable organic cotton baseball cap highlighted with a central daisy bloom motif."
+  },
+  {
+    "id": 18,
+    "title": "Custom Initials Cotton Cap",
+    "category": "accessories",
+    "style": "Custom Initials",
+    "price": 649,
+    "image": "assets/images/products/img1.png",
+    "description": "Stylish fabric cap customized with your choice of embroidered monogram initials."
+  },
+  {
+    "id": 19,
+    "title": "Classic Floral Fabric Napkin Set",
+    "category": "accessories",
+    "style": "Classic Florals",
+    "price": 499,
+    "image": "assets/images/products/img2.png",
+    "description": "Set of 2 pure cotton dining napkins corner-embroidered with classic rose sprigs."
+  },
+  {
+    "id": 20,
+    "title": "Botanical Vine Handkerchief Set",
+    "category": "accessories",
+    "style": "Leaves & Vines",
+    "price": 399,
+    "image": "assets/images/products/img3.png",
+    "description": "Set of 3 soft cotton handkerchiefs finished with delicate trailing vine borders."
+  },
+  {
+    "id": 21,
+    "title": "Full-Sleeve Pure Cotton Linen Shirt",
+    "category": "men",
+    "style": "Classic Florals",
+    "price": 1699,
+    "image": "assets/images/products/img4.png",
+    "description": "Formal pure cotton-linen blend shirt featuring hand-stitched floral motifs on collar points."
+  },
+  {
+    "id": 22,
+    "title": "Half-Sleeve Cotton Leaf Sprig Shirt",
+    "category": "men",
+    "style": "Leaves & Vines",
+    "price": 1399,
+    "image": "assets/images/products/img5.png",
+    "description": "Casual half-sleeve shirt styled with minimalist green leaf embroidery."
+  },
+  {
+    "id": 23,
+    "title": "Custom Name Cotton T-Shirt",
+    "category": "men",
+    "style": "Custom Names",
+    "price": 1299,
+    "image": "assets/images/products/img6.png",
+    "description": "Crew neck cotton t-shirt with your full name personalized in elegant cursive script."
+  },
+  {
+    "id": 24,
+    "title": "Petal Chain Pure Cotton Shirt",
+    "category": "men",
+    "style": "Petal Chain",
+    "price": 1499,
+    "image": "assets/images/products/img7.png",
+    "description": "Full-sleeve crisp white shirt with subtle continuous petal embroidery along sleeve cuffs."
+  },
+  {
+    "id": 25,
+    "title": "Classic Floral Bespoke Dress",
+    "category": "women",
+    "style": "Classic Florals",
+    "price": 2399,
+    "image": "assets/images/products/img8.png",
+    "description": "Handmade bespoke dress featuring rich, multi-colored floral embroidery across the bodice."
+  },
+  {
+    "id": 26,
+    "title": "Leaves & Vines Flared Skirt",
+    "category": "women",
+    "style": "Leaves & Vines",
+    "price": 1999,
+    "image": "assets/images/products/img9.png",
+    "description": "Flowing cotton skirt decorated with lush trailing vines and green foliage motifs."
+  },
+  {
+    "id": 27,
+    "title": "Custom Initials Cotton Top",
+    "category": "women",
+    "style": "Custom Initials",
+    "price": 1499,
+    "image": "assets/images/products/img10.png",
+    "description": "Half-sleeve pure cotton top personalized with elegant monogram embroidery on the chest."
+  },
+  {
+    "id": 28,
+    "title": "Tiny Vine Half-Sleeve Cotton Dress",
+    "category": "women",
+    "style": "Tiny Vine",
+    "price": 2199,
+    "image": "assets/images/products/img11.png",
+    "description": "Chic everyday cotton dress with delicate tiny vine detailing along the V-neckline."
+  },
+  {
+    "id": 29,
+    "title": "Embroidered Canvas Tote Bag",
+    "category": "accessories",
+    "style": "Classic Florals",
+    "price": 799,
+    "image": "assets/images/products/img12.png",
+    "description": "Durable pure cotton canvas tote bag featuring an oversized hand-embroidered rose bloom."
+  },
+  {
+    "id": 30,
+    "title": "Custom Name Fabric Napkin Set",
+    "category": "accessories",
+    "style": "Custom Names",
+    "price": 549,
+    "image": "assets/images/products/img13.png",
+    "description": "Pair of pure cotton napkins personalized with hand-embroidered family or patron names."
+  },
+  {
+    "id": 31,
+    "title": "Tiny Vine Half-Sleeve Pure Cotton Shirt",
+    "category": "men",
+    "style": "Tiny Vine",
+    "price": 1399,
+    "image": "assets/images/products/img14.png",
+    "description": "Everyday breathable cotton shirt accented with delicate vine embroidery on the pocket."
+  },
+  {
+    "id": 32,
+    "title": "Bud Trail Full-Sleeve Cotton Shirt",
+    "category": "men",
+    "style": "Bud Trail",
+    "price": 1649,
+    "image": "assets/images/products/img15.png",
+    "description": "Full-sleeve shirt crafted from 100% pure cotton featuring bud trail sleeve motifs."
+  },
+  {
+    "id": 33,
+    "title": "Daisy Bloom Flared Skirt",
+    "category": "women",
+    "style": "Daisy Bloom",
+    "price": 1849,
+    "image": "assets/images/products/img16.png",
+    "description": "Playful tiered skirt dotted with cute, hand-stitched daisy embroidery clusters."
+  },
+  {
+    "id": 34,
+    "title": "Petal Chain Half-Sleeve Cotton Top",
+    "category": "women",
+    "style": "Petal Chain",
+    "price": 1399,
+    "image": "assets/images/products/img17.png",
+    "description": "Comfortable summer top styled with minimalist petal chain border threadwork."
+  },
+  {
+    "id": 35,
+    "title": "Leaves & Vines Embroidered Cap",
+    "category": "accessories",
+    "style": "Leaves & Vines",
+    "price": 599,
+    "image": "assets/images/products/img1.png",
+    "description": "Unisex cotton cap embroidered with trailing leaf motifs across the side brim."
+  },
+  {
+    "id": 36,
+    "title": "Petal Chain Silk Handkerchief",
+    "category": "accessories",
+    "style": "Petal Chain",
+    "price": 349,
+    "image": "assets/images/products/img2.png",
+    "description": "Fine silk-cotton blend handkerchief with continuous petal chain edge stitching."
+  },
+  {
+    "id": 37,
+    "title": "Daisy Bloom Pure Cotton Shirt",
+    "category": "men",
+    "style": "Daisy Bloom",
+    "price": 1499,
+    "image": "assets/images/products/img3.png",
+    "description": "Casual men's button-down shirt featuring subtle daisy embroidery on the pocket."
+  },
+  {
+    "id": 38,
+    "title": "Custom Initials Full-Sleeve Shirt",
+    "category": "men",
+    "style": "Custom Initials",
+    "price": 1699,
+    "image": "assets/images/products/img4.png",
+    "description": "Tailored pure cotton formal shirt personalized with embroidered monogram cuffs."
+  },
+  {
+    "id": 39,
+    "title": "Bud Trail Bespoke Cotton Dress",
+    "category": "women",
+    "style": "Bud Trail",
+    "price": 2299,
+    "image": "assets/images/products/img5.png",
+    "description": "Custom-tailored cotton dress showcasing continuous stem-and-bud needlework."
+  },
+  {
+    "id": 40,
+    "title": "Classic Floral Cotton Top",
+    "category": "women",
+    "style": "Classic Florals",
+    "price": 1499,
+    "image": "assets/images/products/img6.png",
+    "description": "Vibrant half-sleeve top embroidered with handcrafted floral bloom arrangements."
+  },
+  {
+    "id": 41,
+    "title": "Bud Trail Fabric Napkin Set",
+    "category": "accessories",
+    "style": "Bud Trail",
+    "price": 479,
+    "image": "assets/images/products/img7.png",
+    "description": "Set of 2 organic cotton napkins with elegant stem-and-bud border embroidery."
+  },
+  {
+    "id": 42,
+    "title": "Custom Names Cotton Cap",
+    "category": "accessories",
+    "style": "Custom Names",
+    "price": 699,
+    "image": "assets/images/products/img8.png",
+    "description": "Bespoke cotton cap embroidered with your name or custom text in cursive thread."
+  },
+  {
+    "id": 43,
+    "title": "Full-Sleeve Pure Cotton Leaf Shirt",
+    "category": "men",
+    "style": "Leaves & Vines",
+    "price": 1699,
+    "image": "assets/images/products/img9.png",
+    "description": "Structured pure cotton shirt featuring trailing botanical vine embroidery on the yoke."
+  },
+  {
+    "id": 44,
+    "title": "Half-Sleeve Custom Name Shirt",
+    "category": "men",
+    "style": "Custom Names",
+    "price": 1549,
+    "image": "assets/images/products/img10.png",
+    "description": "Breathable cotton half-sleeve shirt customized with cursive name lettering."
+  },
+  {
+    "id": 45,
+    "title": "Custom Name Flared Skirt",
+    "category": "women",
+    "style": "Custom Names",
+    "price": 2099,
+    "image": "assets/images/products/img11.png",
+    "description": "Personalized flared skirt with custom signature lettering stitched along the waistband."
+  },
+  {
+    "id": 46,
+    "title": "Leaves & Vines Bespoke Dress",
+    "category": "women",
+    "style": "Leaves & Vines",
+    "price": 2399,
+    "image": "assets/images/products/img12.png",
+    "description": "Bespoke fitted dress featuring intricate evergreen foliage embroidery down the front."
+  },
+  {
+    "id": 47,
+    "title": "Tiny Vine Silk Scarf",
+    "category": "accessories",
+    "style": "Tiny Vine",
+    "price": 899,
+    "image": "assets/images/products/img13.png",
+    "description": "Luxurious pure silk scarf finished with delicate trailing leaf vine borders."
+  },
+  {
+    "id": 48,
+    "title": "Classic Floral Handkerchief Set",
+    "category": "accessories",
+    "style": "Classic Florals",
+    "price": 429,
+    "image": "assets/images/products/img14.png",
+    "description": "Pack of 3 pure cotton handkerchiefs with delicate floral corner stitching."
+  },
+  {
+    "id": 49,
+    "title": "Half-Sleeve Pure Cotton Bud Shirt",
+    "category": "men",
+    "style": "Bud Trail",
+    "price": 1449,
+    "image": "assets/images/products/img15.png",
+    "description": "Casual half-sleeve pure cotton shirt detailed with fine floral bud trails."
+  },
+  {
+    "id": 50,
+    "title": "Atelier Masterpiece Bespoke Dress",
+    "category": "women",
+    "style": "Classic Florals",
+    "price": 2899,
+    "image": "assets/images/products/img16.png",
+    "description": "The flagship piece of our collection: a bespoke custom dress covered in dense hand-stitched floral art."
+  }
+]

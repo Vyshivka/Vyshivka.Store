@@ -1,0 +1,13 @@
+js/config.js
+node_modules/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
+
+# Environment variables or local builds (if any)
+node_modules/
+.env

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyshivka | Elegant Embroidery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <!-- Load EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Load your local configuration -->
+    <script src="js/config.js"></script>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="brand-container">
+            <a href="index.html" class="brand-top-link" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none;">
+                <img src="assets/images/logo.jpeg" alt="Logo" class="brand-logo">
+                <div class="logo">Vyshivka<span>.store</span></div>
+            </a>
+        </div>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-links">
+            <!-- Main Page Sections -->
+            <!-- <li><a href="index.html#story-section">Our Story</a></li> -->
+            <li><a href="index.html#collections">Collections</a></li>
+            <li><a href="index.html#designs">Our Designs</a></li>
+            <li><a href="index.html#calculator">Price Estimator</a></li>
+            <li><a href="index.html#contact">Let's Talk</a></li>
+            <!-- Dedicated Pages -->
+            <li><a href="shop.html">Shop Catalog</a></li>
+            <li><a href="track.html">Track Order</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero">
+        <!-- Floating Elements -->
+        <img src="assets/images/decorative-elements/img2.png" alt="" class="floating-icon icon-2">
+        <img src="assets/images/decorative-elements/img3.png" alt="" class="floating-icon icon-3">
+        <img src="assets/images/decorative-elements/img4.png" alt="" class="floating-icon icon-4">
+        <img src="assets/images/decorative-elements/img5.png" alt="" class="floating-icon icon-5">
+        <img src="assets/images/decorative-elements/img6.png" alt="" class="floating-icon icon-6">
+        <img src="assets/images/decorative-elements/img7.png" alt="" class="floating-icon icon-7">
+        <img src="assets/images/decorative-elements/img8.png" alt="" class="floating-icon icon-8">
+        <img src="assets/images/decorative-elements/img9.png" alt="" class="floating-icon icon-9">
+        <img src="assets/images/decorative-elements/img10.png" alt="" class="floating-icon icon-10">
+
+        <div class="hero-content">
+            <h1 class="masked-text">Vyshivka</h1>
+            <p class="subtitle">Thread Your Story</p>
+        </div>
+
+        <!-- Half-image anchored to the bottom -->
+        <div class="hero-bottom-showcase">
+            <img src="assets/images/decorative-elements/img11.png" alt="Embroidered Collection" class="half-showcase-img">
+        </div>
+
+        <!-- Scrolling Marquee Banner -->
+        <div class="scrolling-marquee">
+            <div class="marquee-track">
+                <span>✔ 100% Pure Quality</span>
+                <span>✔ Handcrafted Elegance</span>
+                <span>✔ Custom Designs</span>
+                <span>✔ Artisanal Quality</span>
+                <span>✔ Faster Delivery</span>
+                <span>✔ Organic Threads</span>
+                <span>✔ 100% Pure Quality</span>
+                <span>✔ Handcrafted Elegance</span>
+                <span>✔ Custom Designs</span>
+                <span>✔ Artisanal Quality</span>
+                <span>✔ Organic Threads</span>
+                <span>✔ Faster Delivery</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Story Section -->
+    <section class="feature-section" id="story-section">
+        <div class="feature-container">
+            <div id="flower-destination"></div>
+            
+            <!-- Added tilt-card here -->
+            <div class="feature-text-content tilt-card" id="feature-text">
+                <span class="feature-tag">Artisanal Craft</span>
+                <h2>Woven with Passion</h2>
+                <p style="text-align: justify;">We create custom embroidery designs based on your style and requirements. You can provide your own clothing, or we can arrange the right piece for you. From everyday wear to special outfits, each design is carefully embroidered with attention to detail.</p>
+                <a href="story.html" class="feature-link">Discover Our Story &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE FLYING FLOWER (Global Element) -->
+    <img src="assets/images/decorative-elements/img1.png" alt="" id="flying-flower">
+
+    <!-- --- Category Bento Section --- -->
+    <section class="categories-section" id="collections">
+        <div class="categories-header">
+            <h2>Made for your <br><span>everyday moments</span></h2>
+            <p style="text-align: justify;">Choose your garment, share your vision, and let us bring your idea to life through embroidery.</p>
+        </div>
+
+        <div class="bento-grid">
+            <!-- Card 1: Men's Collection (Left Side - Tall) -->
+            <div class="bento-card bento-large tilt-card">
+                <div class="bento-img-wrapper">
+                    <img src="assets/images/decorative-elements/img7.1.png" alt="Mens Collection">
+                </div>
+                <div class="bento-content">
+                    <span class="bento-badge">Made for Him</span>
+                    <h3>The Men's Collection</h3>
+                    <p>Personalised embroidery that brings character to shirts, tees, and everyday favourites.</p>
+                    <a href="shop.html?category=men" class="bento-link">Explore More &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Right Side Column (Women's Top + Accessories Bottom) -->
+            <div class="bento-right-column">
+                
+                <!-- Card 2: Women's Collection (Top Right) -->
+                <div class="bento-card bento-small tilt-card">
+                    <div class="bento-img-wrapper">
+                        <img src="assets/images/decorative-elements/img8.1.png" alt="Womens Collection">
+                    </div>
+                    <div class="bento-content">
+                        <span class="bento-badge">Made for Her</span>
+                        <h3>The Women's Collection</h3>
+                        <p>From delicate florals to expressive designs, make every outfit your own.</p>
+                        <a href="shop.html?category=women" class="bento-link">Shop &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Accessories Collection (Bottom Right) -->
+                <div class="bento-card bento-small bento-color-accent tilt-card">
+                    <div class="bento-img-wrapper">
+                        <img src="assets/images/decorative-elements/img4.png" alt="Accessories">
+                    </div>
+                    <div class="bento-content">
+                        <span class="bento-badge">Details</span>
+                        <h3>Accessories</h3>
+                        <p>Complete your look with custom hand-finished touches.</p>
+                        <a href="shop.html?category=accessories" class="bento-link">View &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Design Gallery Section --- -->
+    <section class="gallery-section" id="designs">
+        <div class="gallery-header">
+            <span class="gallery-num">Our Embroidery Styles</span>
+            <h2>The art is in every little stitch.</h2>
+            <p style="text-align: justify;">Pick an embroidery style you love or share your own vision. From delicate florals to personalized names, we stitch it all for you.</p>
+        </div>
+
+        <div class="gallery-container">
+            <!-- Left Side: Interactive Category Selector Cards (4 Featured Styles + 2 Action Cards) -->
+            <div class="gallery-tabs" id="galleryTabs">
+                <!-- 1. Classic Florals -->
+                <div class="gallery-tab-card active" data-design="Classic Florals">
+                    <span class="tab-badge">Popular</span>
+                    <h3>Classic Florals</h3>
+                    <p>Timeless blossom clusters and elegant rose petals.</p>
+                </div>
+
+                <!-- 2. Leaves & Vines -->
+                <div class="gallery-tab-card" data-design="Leaves & Vines">
+                    <span class="tab-badge">Nature</span>
+                    <h3>Leaves & Vines</h3>
+                    <p>Trailing botanical vines for subtle, organic framing.</p>
+                </div>
+
+                <!-- 3. Daisy Bloom -->
+                <div class="gallery-tab-card" data-design="Daisy Bloom">
+                    <span class="tab-badge">Charming</span>
+                    <h3>Daisy Bloom</h3>
+                    <p>Playful, delicate daisies stitched with precision.</p>
+                </div>
+
+                <!-- 4. Custom Initials -->
+                <div class="gallery-tab-card" data-design="Custom Initials">
+                    <span class="tab-badge">Personalized</span>
+                    <h3>Custom Initials</h3>
+                    <p>Monograms and fine initials tailored just for you.</p>
+                </div>
+
+                <!-- Explore All Card -->
+                <div class="gallery-tab-card gallery-action-card" data-design="explore" onclick="window.location.href='shop.html';">
+                    <div class="action-content">
+                        <h3>Explore all styles</h3>
+                        <p>Browse our complete catalog of custom patterns.</p>
+                    </div>
+                    <span class="action-arrow">&rarr;</span>
+                </div>
+
+                <!-- Tell Us Your Own Card -->
+                <div class="gallery-tab-card gallery-custom-card" data-design="custom" id="customVisionCard" style="cursor: pointer;">
+                    <div class="action-content">
+                        <h3>Tell us your own</h3>
+                        <p>Have a unique sketch or idea? We stitch custom dreams.</p>
+                    </div>
+                    <span class="action-arrow">+</span>
+                </div>
+            </div>
+
+            <!-- Right Side: Live Visual Preview Canvas -->
+            <div class="gallery-preview-canvas" id="galleryPreviewCanvas">
+                <div class="preview-img-box">
+                    <img id="galleryImg" src="assets/images/decorative-elements/img17.png" alt="Embroidery Design">
+                </div>
+                <div class="preview-text-box">
+                    <span id="galleryTag" class="bento-badge">Featured Style</span>
+                    <h3 id="galleryTitle">Classic Florals</h3>
+                    <p id="galleryDesc">Hand-stitched with precision yarn and silk threads onto fine fabric.</p>
+                    <a href="shop.html?style=Classic%20Florals" class="bento-link" id="galleryLink">Select This Style &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Unified Master Dark Atelier Zone --- -->
+    <div class="master-dark-zone">
+        
+        <!-- Trust Zone: Metrics + Testimonials Carousel -->
+        <section class="dark-trust-zone">
+            <!-- Metric Counter Bar -->
+            <div class="metrics-container">
+                <div class="metric-item">
+                    <div class="metric-number" data-target="120" data-suffix="+">0</div>
+                    <div class="metric-label">Personalised Creations</div>
+                </div>
+                <div class="metric-divider"></div>
+                <div class="metric-item">
+                    <div class="metric-number" data-target="95" data-suffix="+">0</div>
+                    <div class="metric-label">Customers Served</div>
+                </div>
+                <div class="metric-divider"></div>
+                <div class="metric-item">
+                    <div class="metric-number" data-target="100" data-suffix="%">0</div>
+                    <div class="metric-label">Quality in Every Detail</div>
+                </div>
+                <div class="metric-divider"></div>
+                <div class="metric-item">
+                    <div class="metric-number" data-target="12">0</div>
+                    <div class="metric-label">Craft Specialists</div>
+                </div>
+            </div>
+
+            <!-- Instagram Testimonials Section -->
+            <div class="testimonials-section">
+                <div class="testimonials-header">
+                    <span class="testimonials-num">Happy Customers</span>
+                    <h2>A Little Love for Every Stitch</h2>
+                </div>
+
+                <div class="insta-slider-wrapper">
+                    <!-- Dynamically populated from data/comments.json -->
+                    <div class="insta-track" id="testimonialTrack"></div>
+
+                    <!-- Navigation Controls -->
+                    <div class="testimonial-controls">
+                        <button class="testi-arrow dark-arrow" id="prevBtn" aria-label="Previous">&larr;</button>
+                        <button class="testi-arrow dark-arrow" id="nextBtn" aria-label="Next">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Paper-Receipt Billing Section -->
+        <section class="receipt-section dark-receipt-zone" id="calculator">
+            <div class="receipt-container">
+                
+                <!-- Left Side: Interactive Customizer Form -->
+                <div class="receipt-content-side">
+                    <span class="receipt-tagline">● Your Custom Embroidery Journey</span>
+                    <h2>Bring Your Embroidery Idea to Life</h2>
+                    <p>Pick your favorite garment and embroidery design below to see an instant estimate. Everything is handmade just for you.</p>
+                    
+                    <!-- Interactive Workbench -->
+                    <div class="atelier-custom-workbench">
+                        
+                        <!-- 1. Garment Model -->
+                        <div class="workbench-group">
+                            <label>1. Choose What to Embroider</label>
+                            <div class="atelier-select-wrapper">
+                                <select id="garmentSelect" class="atelier-dropdown">
+                                    <option value="shirt" data-price="1499">Custom Cotton Shirt</option>
+                                    <option value="tshirt" data-price="1199">Everyday T-Shirt</option>
+                                    <option value="skirt" data-price="1899">Flared Skirt</option>
+                                    <option value="dress" data-price="2299">Bespoke Dress</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- 2. Embroidery Style -->
+                        <div class="workbench-group">
+                            <label>2. Pick Your Embroidery Style</label>
+                            <div class="atelier-select-wrapper">
+                                <select id="motifSelect" class="atelier-dropdown">
+                                    <option value="Classic Florals" data-price="0">Classic Florals</option>
+                                    <option value="Leaves & Vines" data-price="150">Leaves & Vines</option>
+                                    <option value="Daisy Bloom" data-price="200">Daisy Bloom</option>
+                                    <option value="Custom Initials" data-price="250">Custom Initials</option>
+                                    <option value="Petal Chain" data-price="180">Petal Chain</option>
+                                    <option value="Bud Trail" data-price="160">Bud Trail</option>
+                                    <option value="Tiny Vine" data-price="120">Tiny Vine</option>
+                                    <option value="Custom Names" data-price="300">Custom Names</option>
+                                    <!-- New Custom Design Option -->
+                                    <option value="Custom Design" data-price="500">Custom Design / Upload Idea</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- 3. Size Specification -->
+                        <div class="workbench-group">
+                            <label>3. Size Specification</label>
+                            <div class="size-options-group" id="sizeOptions">
+                                <button type="button" class="atelier-pill size-pill active" data-size="S">S</button>
+                                <button type="button" class="atelier-pill size-pill" data-size="M">M</button>
+                                <button type="button" class="atelier-pill size-pill" data-size="L">L</button>
+                                <button type="button" class="atelier-pill size-pill" data-size="Custom">Custom Fit</button>
+                            </div>
+                        </div>
+
+                        <!-- 4. Patron Name -->
+                        <div class="workbench-group">
+                            <label>4. Name for Your Order</label>
+                            <input type="text" id="patronNameInput" class="atelier-inline-input" value="Ananya Sharma" placeholder="Enter your name" maxlength="32">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Side: Live Dynamic Paper-Receipt Card -->
+                <div class="paper-receipt-card dark-paper-card tilt-card">
+                    <div class="receipt-header-brand">
+                        <div class="receipt-logo-title">
+                            <h3>Vyshivka</h3>
+                            <span>Embroidery Estimate</span>
+                        </div>
+                        <div class="receipt-emblem">🧵</div>
+                    </div>
+
+                    <div class="receipt-divider-line"></div>
+
+                    <div class="receipt-items-list">
+                        <div class="receipt-row">
+                            <span class="r-label">Customised For</span>
+                            <span class="r-value" id="billPatron">Ananya Sharma</span>
+                        </div>
+                        <div class="receipt-row">
+                            <span class="r-label">Selected Garment</span>
+                            <span class="r-value" id="billItem">Custom Cotton Shirt</span>
+                        </div>
+                        <div class="receipt-row">
+                            <span class="r-label">Size</span>
+                            <span class="r-value" id="billSize">S</span>
+                        </div>
+                        <div class="receipt-row">
+                            <span class="r-label">Embroidery Style</span>
+                            <span class="r-value" id="billMotif">Classic Florals</span>
+                        </div>
+                    </div>
+
+                    <div class="receipt-divider-line dashed"></div>
+
+                    <div class="receipt-total-row">
+                        <span class="r-label total-text">Price Starts From</span>
+                        <span class="r-value total-value" id="billPrice">₹1,499</span>
+                    </div>
+
+                    <div class="receipt-row status-row">
+                        <span class="r-label">Status</span>
+                        <span class="r-value" style="color: #25D366; font-weight: 700;">Handcrafted with Love</span>
+                    </div>
+
+                    <div class="receipt-barcode-box">
+                        <div class="barcode-lines"></div>
+                        <span class="receipt-thankyou">♥ Vyshivka — Thread Your Story</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- --- Interactive Bespoke Consultation Form (Light Background) --- -->
+    <section class="consultation-section" id="contact">
+        <div class="consultation-container">
+            <!-- Section Header -->
+            <div class="consultation-header">
+                <span class="consultation-tag">● Let's Talk</span>
+                <h2>Have a custom idea?</h2>
+                <p>Drop us a message with your thoughts or drop by for a quick chat. We'd love to help bring your dream outfit to life.</p>
+            </div>
+
+            <!-- Consultation Form Card -->
+            <form class="consultation-form" id="bespokeForm">
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label for="consultName">Your Name</label>
+                        <input type="text" id="consultName" placeholder="e.g., Ananya Sharma" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="consultEmail">Your Email</label>
+                        <input type="email" id="consultEmail" placeholder="e.g., ananya@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label for="consultPhone">Phone / WhatsApp</label>
+                        <input type="tel" id="consultPhone" placeholder="e.g., +91 98765 43210" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="consultGarment">What are you looking for?</label>
+                        <select id="consultGarment">
+                            <option value="Cotton Shirt">Cotton Shirt</option>
+                            <option value="T-Shirt">Everyday T-Shirt</option>
+                            <option value="Skirt">Embroidered Skirt</option>
+                            <option value="Dress">Bespoke Dress</option>
+                            <option value="Custom Idea">Something else / Custom Idea</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-field full-width">
+                    <label for="consultMessage">Tell us a bit about your idea</label>
+                    <textarea id="consultMessage" rows="2" placeholder="Mention any colors, embroidery styles, or special occasions..."></textarea>
+                </div>
+
+                <div class="form-submit-wrapper">
+                    <button type="submit" class="btn-consult-submit">Send Message</button>
+                    <span class="form-note">✨ We usually reply within a day!</span>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- --- FAQ Section --- -->
+    <section class="faq-section" id="faq" style="padding: 6rem 4%; background: #FFFAF0; border-top: 1px solid rgba(173,46,80,0.1);">
+        <div style="max-width: 1150px; margin: 0 auto;">
+            
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <span style="color: #ad2e50; text-transform: uppercase; letter-spacing: 3px; font-size: 0.75rem; font-weight: 600; display: block; margin-bottom: 0.6rem;">● Common Inquiries</span>
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #2D1E21; margin-bottom: 0.8rem;">Frequently Asked Questions</h2>
+                <p style="color: #6A5A5A; font-size: 0.95rem;">Everything you need to know about our custom hand-embroidered pieces, sizing, and delivery.</p>
+            </div>
+
+            <div class="faq-accordion" style="display: flex; flex-direction: column; gap: 1rem;">
+                
+                <!-- FAQ Item 1 -->
+                <div class="faq-item" style="background: #F9F6F0; border-radius: 16px; border: 1px solid rgba(173,46,80,0.15); transition: all 0.3s ease; overflow: hidden;">
+                    <button class="faq-question" style="width: 100%; text-align: left; background: none; border: none; padding: 1.2rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: #2D1E21; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        <span>How long does a custom embroidered piece take to craft?</span>
+                        <span style="font-size: 1.2rem; color: #ad2e50; font-weight: bold;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1.5rem; color: #6A5A5A; font-size: 0.95rem; line-height: 1.6;">
+                        <p style="padding-bottom: 1.2rem;">Because every motif is hand-stitched by our master artisans in Jaggampeta, standard custom orders typically take <strong>5 to 7 working days</strong> to complete before dispatch.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item" style="background: #F9F6F0; border-radius: 16px; border: 1px solid rgba(173,46,80,0.15); transition: all 0.3s ease; overflow: hidden;">
+                    <button class="faq-question" style="width: 100%; text-align: left; background: none; border: none; padding: 1.2rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: #2D1E21; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        <span>Can I upload my own custom design or sketch?</span>
+                        <span style="font-size: 1.2rem; color: #ad2e50; font-weight: bold;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1.5rem; color: #6A5A5A; font-size: 0.95rem; line-height: 1.6;">
+                        <p style="padding-bottom: 1.2rem;">Yes, absolutely! When exploring our shop catalog or contacting us via WhatsApp, you can select "Upload My Own Custom Design" and attach your reference sketch or photo.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item" style="background: #F9F6F0; border-radius: 16px; border: 1px solid rgba(173,46,80,0.15); transition: all 0.3s ease; overflow: hidden;">
+                    <button class="faq-question" style="width: 100%; text-align: left; background: none; border: none; padding: 1.2rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: #2D1E21; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        <span>How does delivery work across Andhra Pradesh and Telangana?</span>
+                        <span style="font-size: 1.2rem; color: #ad2e50; font-weight: bold;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1.5rem; color: #6A5A5A; font-size: 0.95rem; line-height: 1.6;">
+                        <p style="padding-bottom: 1.2rem;">We dispatch packages directly from our studio using reliable regional and express couriers (like DTDC and Delhivery). Deliveries within AP and TS typically arrive within <strong>1 to 3 business days</strong>.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item" style="background: #F9F6F0; border-radius: 16px; border: 1px solid rgba(173,46,80,0.15); transition: all 0.3s ease; overflow: hidden;">
+                    <button class="faq-question" style="width: 100%; text-align: left; background: none; border: none; padding: 1.2rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: #2D1E21; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        <span>Do you accept custom measurements?</span>
+                        <span style="font-size: 1.2rem; color: #ad2e50; font-weight: bold;">+</span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1.5rem; color: #6A5A5A; font-size: 0.95rem; line-height: 1.6;">
+                        <p style="padding-bottom: 1.2rem;">Yes! In addition to standard sizes (S, M, L), you can select "Custom Measurements" in our order modal and enter your exact chest, waist, and length dimensions in inches.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+<!-- --- Asymmetric Bento Footer Section (Light Background) --- -->
+    <footer class="bento-footer-section">
+        <div class="bento-footer-container">
+
+            <!-- Left Column: Brand & Studio Story Card -->
+            <div class="bento-footer-card brand-story-card tilt-card">
+                <div class="brand-story-header">
+                    <img src="assets/images/logo2.png" alt="Vyshivka Studio Logo" class="brand-story-logo">
+                    <h3>Vyshivka<span>.store</span></h3>
+                </div>
+                
+                <div class="brand-story-content">
+                    <span class="badge-label">About Our Atelier</span>
+                    <h4>Rooted in Heritage</h4>
+                    <p style="text-align: justify;">Based in Jaggampeta, Andhra Pradesh, Vyshivka Studio brings traditional Indian hand-embroidery and fine needlework to your everyday wardrobe. Every garment is meticulously hand-stitched by master artisans, blending intricate threadwork, cultural legacy, and bespoke elegance tailored specifically to your vision.</p>
+                </div>
+
+                <!-- Central Brand Emblem Frame -->
+                <div class="brand-story-emblem">
+                    <img src="assets/images/logo2.png" alt="Vyshivka Brand Emblem">
+                </div>
+
+                <div class="brand-story-badge">
+                    <span>✨ Handcrafted in Jaggampeta</span>
+                </div>
+            </div>
+
+            <!-- Middle Column: 3 Stacked Cards -->
+            <div class="middle-stack">
+                <!-- Top Card: The Atelier Workspace -->
+                <div class="bento-footer-card tilt-card stacked-card">
+                    <div class="footer-card-img">
+                        <img src="assets/images/decorative-elements/img18.png" alt="Rajahmundry Home Atelier">
+                    </div>
+                    <div class="footer-card-caption">
+                        <span>Inside Vyshivka</span>
+                        <h3>A Creative Corner for Embroidery</h3>
+                    </div>
+                </div>
+
+                <!-- Middle Card: Address & Location Block -->
+                <div class="bento-footer-card address-card tilt-card stacked-card">
+                    <div class="address-content">
+                        <span class="badge-label">Find Us Here</span>
+                        <h3>Jaggampeta, AP</h3>
+                        <a href="#contact" class="address-link">Get directions &rarr;</a>
+                    </div>
+                    
+                    <!-- Prominent Right Side Location Icon -->
+                    <div class="address-map-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFAF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Bottom Card: Atelier Schedule & Fittings -->
+                <div class="bento-footer-card info-card tilt-card stacked-card">
+                    <div class="info-icon">🧵</div>
+                    <div class="info-text">
+                        <span class="info-subtitle">Let’s Connect</span>
+                        <h4>Open Mon–Sat, 10 AM – 7 PM</h4>
+                        <p>Connect with us to discuss your designs and custom requests.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: VIP Concierge Hub -->
+            <div class="bento-footer-card concierge-card tilt-card">
+                <div class="concierge-top">
+                    <span class="badge-label">VIP Concierge</span>
+                    <h3>Scan or Tap to Connect</h3>
+                </div>
+                
+                <div class="concierge-qr-frame">
+                    <img src="assets/images/insta-qr.png" alt="Vyshivka Concierge QR Code">
+                </div>
+
+                <div class="concierge-footer-box">
+                    <p class="concierge-text">Direct line to our master artisans:</p>
+                    <div class="footer-channels">
+                        <a href="https://wa.me/919948675873?text=Hello%20Vyshivka%20Studio!%20I%20would%20like%20to%20enquire%20about%20your%20embroidery%20pieces." target="_blank" class="channel-btn whatsapp-btn">💬 WhatsApp Chat</a>
+                        <a href="https://ig.me/m/vyshivka.store" target="_blank" class="channel-btn insta-btn">💌 Instagram DM</a>
+                        <a href="https://www.instagram.com/vyshivka.store/" target="_blank" class="channel-btn insta-btn">📸 Instagram Profile</a>
+                        <a href="mailto:vyshivka.store@gmail.com" class="channel-btn email-btn">✉️ Email Support</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Final Dark Atelier Footer -->
+    <footer class="final-dark-footer">
+        <div class="footer-inner-container">
+            <div class="footer-brand-col">
+                <div class="footer-logo-row">
+                    <img src="assets/images/logo.jpeg" alt="Vyshivka Logo" class="footer-logo-img">
+                    <span class="footer-brand-name">Vyshivka<span>.store</span></span>
+                </div>
+                <p class="footer-hours">Open Mon–Sat, 10 AM – 7 PM</p>
+                <p class="footer-copyright">© 2026. All rights reserved.</p>
+                <div class="footer-legal-links">
+                    <a href="privacy.html">Privacy</a>
+                    <a href="style-guide.html">Style Guide</a>
+                </div>
+                <p class="footer-powered">Made with 🤍</p>
+            </div>
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="story.html">Our Story</a></li>
+                        <li><a href="index.html#collections">Collections</a></li>
+                        <li><a href="shop.html">Shop Catalog</a></li>
+                        <li><a href="track.html">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/vyshivka.store/" target="_blank">Instagram</a></li>
+                        <li><a href="https://wa.me/919948675873?text=Hello%20Vyshivka%20Studio!%20I%20would%20like%20to%20enquire%20about%20your%20embroidery%20pieces." target="_blank">WhatsApp</a></li>
+                        <li><a href="mailto:vyshivka.store@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-col">
+                    <h4>Say Hello</h4>
+                    <p class="footer-address">📍 Jaggampeta, AP</p>
+                    <p class="footer-email">✉️ vyshivka.store@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
